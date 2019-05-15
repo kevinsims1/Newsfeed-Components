@@ -30,6 +30,6 @@ as a parameter to the Article class.
 
 const articles = document.querySelectorAll('.article');
 
-articles.forEach(function(Article) {
+articles.forEach(function(articles) {
   return new Article();
 });
